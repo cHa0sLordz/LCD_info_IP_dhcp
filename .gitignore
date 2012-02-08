@@ -1,0 +1,30 @@
+# generic files to ignore
+# backup files (*~) and vim swap file (.swp), MacOS dir file (.DS_Store)
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+#IDE files to ignore (Netbeans, Eclipse, Xcode, Titanium)
+nbproject/private/
+.classpath
+.project
+.settings
+*.swp
+*~.nib
+build/
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+xcuserdata
+tmp
+dist
+
+#ignore generated .class files
+*.class
+
+#except this file
+!.gitignore
